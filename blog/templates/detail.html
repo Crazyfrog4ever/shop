@@ -1,0 +1,11 @@
+{% extends "parent/main.html" %}
+
+{% block title %}
+    {{ super }}blog - detail
+{% endblock %}
+
+{% block body %}
+    <h1>This is our post :</h1>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.body }}</p>
+{% endblock %}
